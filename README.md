@@ -1,0 +1,3 @@
+# camp
+
+Free Software Camp
