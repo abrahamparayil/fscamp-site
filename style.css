@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.container {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding-top: 20vh;
+}
+.bottom-text {
+    padding-top: 20em;
+    margin: auto;
+    width: 500px;
+}
+.bottom-text p{
+    margin: 10px auto;
+}
+
+.link{
+    color: teal;
+}
