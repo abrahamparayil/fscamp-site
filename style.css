@@ -6,8 +6,7 @@
 }
 
 .nav-container{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 1vh 5%;
 }
 
 /* Navbar section */
@@ -28,7 +27,7 @@
 
 .nav div.logo a{
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 1.4em;
     text-transform: uppercase;
     color: black;
 }
