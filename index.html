@@ -8,19 +8,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="construction.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/regular.min.css" integrity="sha512-qgtcTTDJDk6Fs9eNeN1tnuQwYjhnrJ8wdTVxJpUTkeafKKP6vprqRx5Sj/rB7Q57hoYDbZdtHR4krNZ/11zONg==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
     </head>
     <body>
         <main>
-            <div class="container">
-                <div class="construction"></div>
-            </div>
-<div class="bottom-text">
-    <h2>We're under construction. Come back in a bit. Meanwhile if you'd like to know more about our initative checkout this <a class="link" href="https://cryptpad.fr/pad/#/2/pad/view/It3nmol-uV6tPYgOLHLa9SYNCBHhAXBA5UAGOQx9TSc/">document</a>.</h2>
-            <p>Made with ❤️. All original content is licensed under a free/libre copyleft license (GPL or CC BY-SA).</p>
-</div>
+            <body>
+                <nav class="nav">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="#">YourLogo</a>
+        </div>
+        <div class="main_list" id="mainListDiv">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">my work</a></li>
+                <li><a href="#">disegn</a></li>
+                <li><a href="#">dcontact</a></li>
+            </ul>
+        </div>
+        <div class="media_button">
+            <button class="main_media_button" id="mediaButton">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+                <div class="container">
+                    <div class="construction"></div>
+                </div>
+                <div class="bottom-text">
+                    <h2>We're under construction. Come back in a bit. Meanwhile if you'd like to know more about our initative checkout this <a class="link" href="https://cryptpad.fr/pad/#/2/pad/view/It3nmol-uV6tPYgOLHLa9SYNCBHhAXBA5UAGOQx9TSc/">document</a>.</h2>
+                    <p>Made with ❤️. All original content is licensed under a free/libre copyleft license (GPL or CC BY-SA).</p>
+                </div>
         </main>
-    </body>
+        <script type="text/javascript">
+ var mainListDiv = document.getElementById("mainListDiv"),
+    mediaButton = document.getElementById("mediaButton");
+
+mediaButton.onclick = function () {
+
+    "use strict";
+
+    mainListDiv.classList.toggle("show_list");
+    mediaButton.classList.toggle("active");
+
+};
+        </script>
+            </body>
 </html>
