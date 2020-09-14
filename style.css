@@ -206,3 +206,48 @@ nav{
 	    transform: translateX(0px);
     }
 }
+
+#about{
+    display: flex;
+    width: 80%;
+    min-height: 90vh;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.about-cover{
+    flex: 1;
+}
+.about-text{
+    flex: 1;
+}
+.medium-heading{
+    font-size: 30px;
+    font-weight: 500;
+}
+.para{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.about-cover img{
+    min-width: 400px;
+}
+.tasks-section{
+    margin-top: 10vh;
+}
+.task-text{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
