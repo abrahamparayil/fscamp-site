@@ -173,19 +173,6 @@ nav{
     font-size: 15px;
     margin:5px;
 }
-@media screen and (max-width: 1000px){
-    .presentation{
-        flex-direction: column-reverse;
-        height: auto;
-    }
-    .cover{
-        width: 90%;
-    }
-    .cover img{
-        width: 100%;
-        height: auto;
-    }
-}
 @keyframes dropdown{
     0% {
 	    opacity: 0;
@@ -239,6 +226,8 @@ nav{
 }
 .about-cover img{
     min-width: 400px;
+    margin: auto;
+    min-height: 30vh
 }
 .tasks-section{
     margin-top: 10vh;
@@ -250,4 +239,56 @@ nav{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+.task-tech{
+    display: flex;
+    margin: 10vh auto;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.task-block{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    flex: 1;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+
+    border: solid 3px #468c9f;
+    padding: 50px;
+}
+.task-cover{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px){
+    .presentation{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .cover{
+        width: 90%;
+    }
+    .cover img{
+        width: 100%;
+        height: auto;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .task-tech{
+        flex-direction: column;
+    }
+    .task-text{
+        width: auto;
+    }
+    .about-cover img{
+        min-width: auto;
+        width: 90%;
+    }
 }
