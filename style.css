@@ -292,3 +292,32 @@ nav{
         width: 90%;
     }
 }
+
+#contact{
+    background-color: #55AEE1;
+    padding: 5vh 0;
+}
+.icon-row{
+    display: flex;
+    width: 50%;
+    margin: 5vh auto;
+    justify-content: space-around;
+}
+.icon-row a svg{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+}
+.contact-icon{
+}
+.contact-icons{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+svg{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
