@@ -257,40 +257,23 @@ nav{
     justify-content: center;
 }
 .block{
-
+    width: auto;
     border: solid 3px #468c9f;
-    padding: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+.block ul{
+    list-style: none;
+    text-align: center;
+    width: 80%;
 }
 .task-cover{
     display: flex;
     justify-content: center;
-}
-
-@media screen and (max-width: 1000px){
-    .presentation{
-        flex-direction: column-reverse;
-        height: auto;
-    }
-    .cover{
-        width: 90%;
-    }
-    .cover img{
-        width: 100%;
-        height: auto;
-    }
-    .about-section{
-        flex-direction: column;
-    }
-    .task-tech{
-        flex-direction: column;
-    }
-    .task-text{
-        width: auto;
-    }
-    .about-cover img{
-        min-width: auto;
-        width: 90%;
-    }
 }
 
 #contact{
@@ -320,4 +303,34 @@ svg{
 }
 img{
     width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+    .presentation{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .intro-text p{
+        width: auto;
+    }
+    .cover{
+        width: 90%;
+    }
+    .cover img{
+        width: 100%;
+        height: auto;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .task-tech{
+        flex-direction: column;
+    }
+    .about-cover img{
+        min-width: auto;
+        width: 90%;
+    }
+.icon-row{
+    width: 80%;
+}
 }
