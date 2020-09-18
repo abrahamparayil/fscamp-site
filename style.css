@@ -156,7 +156,7 @@ nav{
 
 .cover img{
     margin: auto 30px;
-    height: 60vh;
+    max-height: 60vh;
     animation: dropdown 1.5s ease-in forwards;
 }
 .introduction{
@@ -392,7 +392,6 @@ footer .icon-row{
     }
     .about-cover img{
         min-width: auto;
-        width: 90%;
     }
 .icon-row{
     width: 80%;
@@ -415,5 +414,8 @@ footer .icon-row{
 }
 .footer-icon-row a{
     margin: 20px auto;
+}
+#coc{
+    width: 90%;
 }
 }
