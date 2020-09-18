@@ -251,9 +251,11 @@ nav{
     font-size: 20px;
     margin-top: 5px;
 }
+.about-text ul{
+    padding: 20px;
+}
 .about-cover img{
     margin: auto;
-    min-height: 30vh
 }
 .tasks-section{
     margin-top: 10vh;
