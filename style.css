@@ -174,7 +174,8 @@ nav{
     margin-top: 5px;
     width: 70%;
 }
-.cta{
+.cta-block{
+    display: flex;
     padding: 20px 0px 50px 0px;
 }
 .cta button{
@@ -183,6 +184,7 @@ nav{
     font-size: 15px;
     margin:5px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 @keyframes dropdown{
     0% {
