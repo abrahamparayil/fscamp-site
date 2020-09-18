@@ -166,7 +166,7 @@ nav{
 
 }
 .intro-text h1{
-    font-size: 64px;
+    font-size: 34px;
     font-weight: 500;
 }
 .intro-text p{
@@ -252,7 +252,6 @@ nav{
     margin-top: 5px;
 }
 .about-cover img{
-    min-width: 400px;
     margin: auto;
     min-height: 30vh
 }
@@ -346,6 +345,30 @@ img{
 #coc ul{
     padding-left: 40px;
 }
+footer{
+    min-width: 40vh;
+    background-color: #55AEE1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+footer .icon-row{
+    margin: auto;
+    border-top: 2px solid white;
+    padding: 5vh;
+}
+.footer-icon-row{
+    display: flex;
+    width: 50%;
+    margin: 5vh auto;
+    justify-content: space-around;
+}
+.footer-icon-row a svg{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+}
 @media screen and (max-width: 1000px){
     .presentation{
         flex-direction: column-reverse;
@@ -383,5 +406,14 @@ img{
 .reg_form{
     display: flex;
     height: 100vh;
+}
+.footer-icon-row{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.footer-icon-row a{
+    margin: 20px auto;
 }
 }
