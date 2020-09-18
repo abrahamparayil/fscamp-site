@@ -135,6 +135,18 @@ nav{
     align-items: center;
     margin: auto;
 }
+#coc{
+    display: flex;
+    width: 60%;
+    min-height: 90vh;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+#coc h1{
+    font-weight: 400;
+    font-size: 64;
+}
 .cover{
     flex: 1;
     display: flex;
@@ -320,7 +332,21 @@ svg{
 img{
     width: 100%;
 }
-
+#coc p{
+    padding-left: 10px;
+}
+#coc h1{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+}
+.medium-heading {
+    fonts-weight: 400;
+    font-size: 25px;
+}
+#coc ul{
+    padding-left: 40px;
+}
 @media screen and (max-width: 1000px){
     .presentation{
         flex-direction: column-reverse;
