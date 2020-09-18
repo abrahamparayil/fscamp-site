@@ -206,6 +206,10 @@ nav{
 .heading{
     margin: 3vh auto;
 }
+.reg_form{
+    display: flex;
+    height: 100vh;
+}
 #about{
     display: flex;
     width: 80%;
@@ -348,7 +352,11 @@ img{
 .expectations{
     display: flex;
     flex-direction: column;
-    margin: 10vh auto;
+    margin: 0vh auto 10vh auto;
     width: 80%;
+}
+.reg_form{
+    display: flex;
+    height: 100vh;
 }
 }
