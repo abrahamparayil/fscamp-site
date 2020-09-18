@@ -39,7 +39,7 @@ nav{
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    font-size:calc(1.25em + 0.35vw);
+    font-size:calc(1em + 0.35vw);
 }
 .menu a{
     color: black;
