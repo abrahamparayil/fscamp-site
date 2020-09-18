@@ -193,7 +193,19 @@ nav{
 	    transform: translateX(0px);
     }
 }
-
+.container{
+    display: flex;
+    margi
+}
+.expectations{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh auto;
+    width: 60%;
+}
+.heading{
+    margin: 3vh auto;
+}
 #about{
     display: flex;
     width: 80%;
@@ -331,6 +343,12 @@ img{
         width: 90%;
     }
 .icon-row{
+    width: 80%;
+}
+.expectations{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh auto;
     width: 80%;
 }
 }
