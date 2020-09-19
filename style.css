@@ -241,7 +241,10 @@ nav{
     margin: auto;
     align-items: center;
 }
-
+#tools {
+  margin-top: -100px;
+  padding-top: 100px;
+}
 .about-cover{
     flex: 1;
 }
