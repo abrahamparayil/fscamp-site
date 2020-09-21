@@ -30,8 +30,8 @@
                         <li><a href="#contact">Contact</a></li>
 
                                 <div class="dropdown cta">
-                                    <button onclick="myFunction()" class="dropbtn">Apply</button>
-                                    <div id="myDropdown" class="dropdown-content" style="padding: 5px;">
+                                    <button onclick="myFunctionnav()" class="dropbtn">Apply</button>
+                                    <div id="myDropdownnav" class="dropdown-content" style="padding: 5px;">
                                         <button style="padding: 0px;"><a href='learners.html'>As Learner</a></button>
                                         <button style="padding: 0px;"><a href='mentors.html'>As Mentor</a></button>
                                     </div>
@@ -59,6 +59,9 @@
                                 <script>
                                     function myFunction() {
                                     document.getElementById("myDropdown").classList.toggle("show");
+                                    }
+                                    function myFunctionnav() {
+                                    document.getElementById("myDropdownnav").classList.toggle("show");
                                     }
                                     window.onclick = function(event) {
                                     if (!event.target.matches('.dropbtn')) {

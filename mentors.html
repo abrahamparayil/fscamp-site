@@ -27,35 +27,56 @@
                         <li><a href="coc.html">Code of Conduct</a></li>
                         <li><a href="sched.html">Schedule</a></li>
                         <li><a href="index.html#contact">Contact</a></li>
-                                <div class="dropdown cta">
-                                    <button onclick="myFunction()" class="dropbtn">Apply</button>
-                                    <div id="myDropdown" class="dropdown-content" style="padding: 5px;">
-                                        <button style="padding: 0px;"><a href='learners.html'>As Learner</a></button>
-                                        <button style="padding: 0px;"><a href='mentors.html'>As Mentor</a></button>
-                                    </div>
-                                </div>
+                        <div class="dropdown cta">
+                            <button onclick="myFunction()" class="dropbtn">Apply</button>
+                            <div id="myDropdown" class="dropdown-content" style="padding: 5px;">
+                                <button style="padding: 0px;"><a href='learners.html'>As Learner</a></button>
+                                <button style="padding: 0px;"><a href='mentors.html'>As Mentor</a></button>
+                            </div>
+                        </div>
                         <label for="chk" class="hide-menu-btn"><i class="nav-icon fas fa-times"></i></label>
                     </ul>
                 </nav>
             </div>
-                    <div class="expectations">
-                        <h1 class="heading">Mentor expectations</h2>
-                        <ul>
-                            <li>Free software contributions</li>
-                            <li>Identify projects in which they can mentor learners</li>
-                            <li>Commit 5 hours per week of mentoring during the 3 months of the mentorship - including answering questions, reviewing contributions, and meeting with learners</li>
-                            <li>Real-time meeting with learner(s) preferably once a week - either through real-time chat, video conference, or phone</li>
-                            <li>Timely review of contributions - if a mentor is unable to provide contribution review, they are responsible for finding community members who can</li>
-                            <li>Guidance to learners about how to work in a free software community</li>
-                            <li>Guidance to learners about time management</li>
-                            <li>Connect learners to the larger free software community</li>
-                            <li>Communicate with learners using Free Software tools</li>
-                        </ul>
-                    </div>
-                    <h2 class="medium-heading" style="text-align:center;margin-bottom:20px">Please fill out the form below to join as a mentor</h2>
-                    <div class="reg_form">
-                        <iframe frameborder="2" src="https://ee.kobotoolbox.org/single/eJ2m4rrb" width="80%" height="100%" style="margin: auto;"></iframe>
-                    </div>
+
+            <script>
+             function myFunction() {
+                 document.getElementById("myDropdown").classList.toggle("show");
+             }
+             function myFunctionnav() {
+                 document.getElementById("myDropdownnav").classList.toggle("show");
+             }
+             window.onclick = function(event) {
+                 if (!event.target.matches('.dropbtn')) {
+                     var dropdowns = document.getElementsByClassName("dropdown-content");
+                     var i;
+                     for (i = 0; i < dropdowns.length; i++) {
+                         var openDropdown = dropdowns[i];
+                         if (openDropdown.classList.contains('show')) {
+                             openDropdown.classList.remove('show');
+                         }
+                     }
+                 }
+             }
+            </script>
+            <div class="expectations">
+                <h1 class="heading">Mentor expectations</h2>
+                    <ul>
+                        <li>Free software contributions</li>
+                        <li>Identify projects in which they can mentor learners</li>
+                        <li>Commit 5 hours per week of mentoring during the 3 months of the mentorship - including answering questions, reviewing contributions, and meeting with learners</li>
+                        <li>Real-time meeting with learner(s) preferably once a week - either through real-time chat, video conference, or phone</li>
+                        <li>Timely review of contributions - if a mentor is unable to provide contribution review, they are responsible for finding community members who can</li>
+                        <li>Guidance to learners about how to work in a free software community</li>
+                        <li>Guidance to learners about time management</li>
+                        <li>Connect learners to the larger free software community</li>
+                        <li>Communicate with learners using Free Software tools</li>
+                    </ul>
+            </div>
+            <h2 class="medium-heading" style="text-align:center;margin-bottom:20px">Please fill out the form below to join as a mentor</h2>
+            <div class="reg_form">
+                <iframe frameborder="2" src="https://ee.kobotoolbox.org/single/eJ2m4rrb" width="80%" height="100%" style="margin: auto;"></iframe>
+            </div>
             <footer>
                 <div class="footer-icon-row ">
                     <h1>Organised By</h1>
