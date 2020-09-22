@@ -488,4 +488,7 @@ footer .icon-row{
 #coc{
     width: 90%;
 }
+.deco-box {
+    flex-direction: column;
+}
 }
