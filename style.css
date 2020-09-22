@@ -181,13 +181,18 @@ nav{
     display: flex;
     padding: 20px 0px 50px 0px;
 }
-.cta button{
+.cta button, .deco-box button{
     border: solid 3px #468c9f ;
     background-color: white;
     font-size: 15px;
     margin:5px;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.cta button a, .deco-box button a{
+    text-decoration: none;
+    color: inherit;
 }
 .dropbtn {
   background-color: white;
@@ -231,6 +236,17 @@ nav{
     display: flex;
     flex-direction: column;
     transition: 0.4s;
+}
+.deco-box {
+    background: #54A5DD;
+    color: white;
+    font-size: 20px;
+    padding: 30px 30px;
+    margin: 3vh auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 @keyframes dropdown{
     0% {
