@@ -8,6 +8,10 @@
 h1, h2{
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+    color: #0000FF";
+}
 .nav-container{
     width: 100%;
     color: blue;
