@@ -329,7 +329,6 @@ nav{
 }
 .task-text{
     display: flex;
-    width: 80%;
     margin: auto;
     justify-content: center;
     flex-direction: column;
