@@ -181,7 +181,7 @@ nav{
     display: flex;
     padding: 20px 0px 50px 0px;
 }
-.cta button, .deco-box button{
+.cta button, .deco-box button, .button{
     border: solid 3px #468c9f ;
     background-color: white;
     font-size: 15px;
@@ -190,7 +190,7 @@ nav{
     cursor: pointer;
 }
 
-.cta button a, .deco-box button a{
+.cta button a, .deco-box button a, .button{
     text-decoration: none;
     color: inherit;
 }
@@ -412,6 +412,13 @@ img{
 }
 #coc ul{
     padding-left: 40px;
+}
+.promo-item{
+    margin: 12px 0 48px;
+}
+.download{
+    margin: 12px auto 24px;
+    text-align: center;
 }
 footer{
     min-width: 40vh;
