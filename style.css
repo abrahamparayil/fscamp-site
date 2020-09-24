@@ -372,18 +372,40 @@ nav{
 
 #contact{
     background-color: #55AEE1;
-    padding: 5vh 0;
+    padding-top: 5vh;
 }
 .icon-row{
     display: flex;
     width: 50%;
-    margin: 5vh auto;
+    margin: 5vh auto 0;
     justify-content: space-around;
+}
+.icon-row a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
 }
 .icon-row a svg{
     text-decoration: none;
     color: white;
     height: 50px;
+}
+.icon-row.secondary{
+    margin: 0 auto;
+    padding-bottom: 28px;
+    text-align: center;
+}
+.icon-row.secondary li{
+    display: inline;
+    line-height: 2;
+    margin-right: 22px;
+    white-space: nowrap;
+}
+.icon-row.secondary svg{
+    width: auto;
+    scale: 0.7;
+    position: relative;
+    top: 20px;
 }
 .contact-icon{
 }
