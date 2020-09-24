@@ -193,10 +193,12 @@ nav{
     padding: 10px 20px;
     cursor: pointer;
 }
-
 .cta button a, .deco-box button a, .button{
     text-decoration: none;
     color: inherit;
+}
+.mb{
+    margin-bottom: 32px;
 }
 .dropbtn {
   background-color: white;
