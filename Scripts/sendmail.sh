@@ -1,3 +1,4 @@
+# ♡ Please copy and share.
 while IFS=, read -r name email
 do
     echo "Sending mail to $name <$email>.."
