@@ -1,0 +1,24 @@
+{{define "main"}}
+<main id="main">
+    <div>
+        {{ range .Pages}}
+        <div class="col-md-4">
+            {{if eq .Section "post"}}
+            <well class="well">
+                <h3><a class="link" href="{{.Permalink}}">{{.Title}}</a></h3>
+                <div class="list-item">
+                    <small class="label-dark">{{ .PublishDate.Format "January 2, 2006" }}</small>
+                    {{ $author := "false" }}
+                    {{  if not (eq .Params.Author $author) }}
+                    <p style="margin-right: 20px"><b>By : </b><a class="link"  href="{{ .Params.author_about }}">{{ .Params.Author }}</a></p>
+                    {{ end }}
+                    <p ><b>Reading Time:</b> {{.ReadingTime}} min</p>
+                </div>
+                <p>{{ .Summary }}</p>
+            </well>
+            {{end}}
+        </div><br>
+        {{end}}
+    </div>
+</main>
+{{ end }}
