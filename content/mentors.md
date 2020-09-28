@@ -19,7 +19,7 @@ slug: mentors
 
 <div class="deco-box">
   <p>Do you want to apply as Learner instead?</p>
-    <button><a href='learners.html'>Apply As Learner</a></button>
+    <button><a href='{{ .Site.BaseURL }}learners'>Apply As Learner</a></button>
 </div>
 
 
