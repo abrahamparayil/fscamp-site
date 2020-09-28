@@ -1,6 +1,6 @@
 # Free Software Camp Website
 
-This website is build using [Hugo](https://gohugo.io/ "Hugo website"), a static site generator built in Go.
+This website is build using [Hugo](https://gohugo.io/ "Hugo website"), a static site generator built with Go.
 
 ### Installing Hugo
 Hugo is available on most modern operating systems. If you're using a GNU/Linux distribution that uses the `apt` package manager (Debian, Ubuntu or any of their derivatives) you can install it with the following command: 
@@ -32,3 +32,8 @@ hugo server -D --buildDrafts
 ### Generating Static Sites
 To generate static websites, just run the command `hugo` from the command line from the project's root folder where the config.toml file is present.
 This will generate the files in a directory called `public`. These files can now be deployed using a web server of your choice.
+
+### Workflow for camp.fsf.org.in
+- Run the hugo commands to generate the static site in the public folder.
+- Commit the contents of the public folder to the `production` branch.
+- The production branch can then be pushed to the server.
