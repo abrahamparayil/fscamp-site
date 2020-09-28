@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free Software Camp</title>
+    <link>https://camp.fsf.org.in/</link>
+    <description>Recent content on Free Software Camp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Sep 2020 00:23:05 +0530</lastBuildDate>
+    
+	<atom:link href="https://camp.fsf.org.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://camp.fsf.org.in/privacy/</link>
+      <pubDate>Tue, 29 Sep 2020 00:23:05 +0530</pubDate>
+      
+      <guid>https://camp.fsf.org.in/privacy/</guid>
+      <description>Free Software Camp Privacy Policy v1.0 In Free Software camp we take individual privacy seriously, this document will act as the privacy policy for the Free Software Camp.
+Data we collect from: Learner:  Personal Information: Name, Email, Gender and other communication details, Location. Technology Access Information: Internet access, computing device access. Priliminary Assessment Responses: Responses to the questions in the registration form that are to assess your exposure to free softwares and knowledge about Free Software philosophy.</description>
+    </item>
+    
+    <item>
+      <title>Mentors</title>
+      <link>https://camp.fsf.org.in/mentors/</link>
+      <pubDate>Fri, 25 Sep 2020 12:46:41 +0530</pubDate>
+      
+      <guid>https://camp.fsf.org.in/mentors/</guid>
+      <description>Mentor expectations  Free software contributions Identify projects in which they can mentor learners Commit 5 hours per week of mentoring during the 3 months of the mentorship - including answering questions, reviewing contributions, and meeting with learners Real-time meeting with learner(s) preferably once a week - either through real-time chat, video conference, or phone Timely review of contributions - if a mentor is unable to provide contribution review, they are responsible for finding community members who can Guidance to learners about how to work in a free software community Guidance to learners about time management Connect learners to the larger free software community Communicate with learners using Free Software tools</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://camp.fsf.org.in/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://camp.fsf.org.in/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://camp.fsf.org.in/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://camp.fsf.org.in/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
