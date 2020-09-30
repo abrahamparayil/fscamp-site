@@ -202,7 +202,7 @@ nav{
     display: flex;
     padding: 20px 0px 50px 0px;
 }
-.cta button, .deco-box button{
+.cta button, .deco-box button, .button{
     border: solid 3px #468c9f ;
     background-color: white;
     font-size: 15px;
@@ -211,9 +211,12 @@ nav{
     cursor: pointer;
 }
 
-.cta button a, .deco-box button a{
+.cta button a, .deco-box button a, .button{
     text-decoration: none;
     color: inherit;
+}
+.mb{
+    margin-bottom: 32px;
 }
 .dropbtn {
     background-color: white;
@@ -350,7 +353,6 @@ nav{
 }
 .task-text{
     display: flex;
-    width: 80%;
     margin: auto;
     justify-content: center;
     flex-direction: column;
