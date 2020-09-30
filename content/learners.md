@@ -1,7 +1,7 @@
 ---
 title: "Learners"
 date: 2020-09-28T23:16:23+05:30
-draft: true
+slug: learners
 ---
 
 # Learner Expectations
