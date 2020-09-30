@@ -1,7 +1,7 @@
 ---
 title: "Code Of Conduct"
 date: 2020-09-28T23:25:31+05:30
-draft: true
+slug: code-of-conduct
 ---
 # Free Software Camp Code of Conduct
 

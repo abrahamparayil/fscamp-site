@@ -1,7 +1,7 @@
 ---
 title: "Schedule"
 date: 2020-09-29T00:11:16+05:30
-draft: true
+slug: shed
 ---
 
 <table style="width: 100%;">
