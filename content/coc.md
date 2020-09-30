@@ -2,6 +2,8 @@
 title: "Code Of Conduct"
 date: 2020-09-28T23:25:31+05:30
 slug: code-of-conduct
+aliases:
+    - /coc
 ---
 # Free Software Camp Code of Conduct
 
