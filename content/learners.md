@@ -18,7 +18,7 @@ slug: learners
 </div>
 
 
-<h2 class="medium-heading" style="text-align:center;margin-bottom:20px">Please fill out the form below to join as a mentor</h2>
+<h2 class="medium-heading" style="text-align:center;margin-bottom:20px">Please fill out the form below to join as a learner</h2>
 
 
 <div style="height: 100vh">
