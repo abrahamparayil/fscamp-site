@@ -22,6 +22,25 @@ Data we collect from: Learner:  Personal Information: Name, Email, Gender and ot
     </item>
     
     <item>
+      <title>Schedule</title>
+      <link>https://camp.fsf.org.in/shed/</link>
+      <pubDate>Tue, 29 Sep 2020 00:11:16 +0530</pubDate>
+      
+      <guid>https://camp.fsf.org.in/shed/</guid>
+      <description>September 19-October 15 Mentors &amp; Learners Application Window People who wish to join the camp as mentor or learner can apply during this time.   October 17-October 24 Ice Breaking Learners get to know each other and know more about the program   October 25-November 3 Introduction to Free Software Get to know free software philosophy and install a GNU/Linux OS   November 4-November 11 Explore different areas of contribution Learn about different free software projects from contributors, and meet mentors.</description>
+    </item>
+    
+    <item>
+      <title>Code Of Conduct</title>
+      <link>https://camp.fsf.org.in/code-of-conduct/</link>
+      <pubDate>Mon, 28 Sep 2020 23:25:31 +0530</pubDate>
+      
+      <guid>https://camp.fsf.org.in/code-of-conduct/</guid>
+      <description>Free Software Camp Code of Conduct Free Software Camp, as part of the greater Free Software Community, assumes good faith on all those who wish to improve Free Software Projects. However, other experiences at other programs have shown us the need to adopt a Code of Conduct in which we state our expectations of all participants and organizers during the Free Software Camp.
+This code of conduct applies to all participants of Free Software Camp, in addition to the FSCI Code of Conduct that applies to the FSCI community as a whole.</description>
+    </item>
+    
+    <item>
       <title>Mentors</title>
       <link>https://camp.fsf.org.in/mentors/</link>
       <pubDate>Fri, 25 Sep 2020 12:46:41 +0530</pubDate>
