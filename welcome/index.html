@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Free Software Camp 2020</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href='https://camp.fsf.org.in/css/style.css' type="text/css" media="screen" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/font-awesome/5.14.0/css/all.css" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="nav-container">
+    <nav>
+        <div class="logo">
+            <a href="https://camp.fsf.org.in">Free Software
+                <span style="color:#469198"> Camp</span></a>
+        </div>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn" style="align-items:center;">
+            <i class="nav-icon fas fa-bars"></i>
+        </label>
+        <ul class="menu">
+            <li><a href="https://camp.fsf.org.in#about">About</a></li>
+            <li><a href="https://camp.fsf.org.in/code-of-conduct">Code of Conduct</a></li>
+            <li><a href="https://camp.fsf.org.in/sched">Schedule</a></li>
+            <li><a href="https://camp.fsf.org.in#contact">Contact</a></li>
+
+            <div class="dropdown cta">
+                <button onclick="myFunctionnav()" class="dropbtn">Apply</button>
+                <div id="myDropdownnav" class="dropdown-content" style="padding: 5px;">
+                    <button style="padding: 0px;"><a href='https://camp.fsf.org.in/learners'>As Learner</a></button>
+                    <button style="padding: 0px;"><a href='https://camp.fsf.org.in/mentors'>As Mentor</a></button>
+                </div>
+            </div>
+            <label for="chk" class="hide-menu-btn"><i class="nav-icon fas fa-times"></i></label>
+        </ul>
+
+        <script>
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+         function myFunctionnav() {
+             document.getElementById("myDropdownnav").classList.toggle("show");
+         }
+         window.onclick = function(event) {
+             if (!event.target.matches('.dropbtn')) {
+                 var dropdowns = document.getElementsByClassName("dropdown-content");
+                 var i;
+                 for (i = 0; i < dropdowns.length; i++) {
+                     var openDropdown = dropdowns[i];
+                     if (openDropdown.classList.contains('show')) {
+                         openDropdown.classList.remove('show');
+                     }
+                 }
+             }
+         }
+        </script>
+    </nav>
+</div>
+<main>
+<section class="expectations" style="margin: 5vh auto;">
+  <h1 style="text-align: center;">Welcome</h1>
+  
+
+<h1 id="welcome-message-to-learner">Welcome message to Learner</h1>
+
+<p>Dear Learner,</p>
+
+<p>We have received your application to join Free Software Camp 2020 organized by Free Software Foundation of India and Free Software Community of India. Please read this email and take necessary steps to complete your application.</p>
+
+<ol>
+<li>Make sure you have read the <a href="https://camp.fsf.org.in/coc.html">code of conduct</a>.</li>
+<li>Make sure you take the learners&rsquo; <a href="https://ee.kobotoolbox.org/single/nxw4UE3B">survey</a> that indicates to us your preferred language for sessions.</li>
+<li>Consider subscribing to our low volume announcement <a href="https://lists.fsci.in/postorius/lists/camp-announce.mm.gnu.org.in/">mailing list</a> or following us on <a href="https://social.masto.host/@fscamp&gt;https://social.masto.host/@fscamp">mastodon/fediverse</a>for updates regarding the camp and join in the conversation on <a href="https://matrix.to/#/#fscamp:poddery.com">matrix</a> using any of the matrix powered apps like Element.</li>
+<li>If your age is below 15, please contact us at <a href="mailto:camp@mm.gnu.org.in">camp@mm.gnu.org.in</a></li>
+</ol>
+
+<p>If you are new to these terms, here is an explanation:</p>
+
+<h2 id="mailing-list">Mailing list:</h2>
+
+<p>A mail send to a mailing list is distributed to all members, so when we send an email to camp-announce mailing list, all of you will get a copy of the mail.</p>
+
+<p>We have sent you an invitation to join the camp-announce mailing list, but Gmail seems to be marking it as spam even though we have correct DKIM and SPF records (these are standards for authenticating emails) for our emails. If you mark the invitation as not spam, it may help new people receive the mail in their inbox.</p>
+
+<h2 id="mastodon-fediverse">Mastodon/Fediverse:</h2>
+
+<p>Mastodon is a Free Software to create a social media service similar to Twitter in features. Unlike twitter, mastodon is not controlled by a single company. Many people and organizations around the world run their own mastodon services which are referred to as instances and users of any of these instances can interact with users of any other instance. Additionally there are other software interoperable with mastodon and all of it together constitute the fediverse. Some other software part of the Fediverse are Pleroma, Friendica, Peertube, Pixelfed etc.</p>
+
+<h2 id="matrix-element">Matrix/Element:</h2>
+
+<p>Matrix is a communication protocol for sharing instant messages, photos, files and audio/video calls. Element is most feature-complete app for Matrix protocol and is available on smart phones and laptop/desktop. Matrix has a similar decentralized architecture to mastodon, where different people and organizations provide an interoperable network of home servers (similar to an instance of mastodon). If you are new to using matrix, you can sign up for accounts by following instructions at <a href="https://chat.feneas.org">https://chat.feneas.org</a>, <a href="https://chat.tchncs.de">https://chat.tchncs.de</a> or <a href="https://chat.privacytools.io">https://chat.privacytools.io</a>, instead of using matrix.org which will help to reduce their server load.</p>
+
+<p>You can reach out to us by mailing to <a href="mailto:camp@mm.gnu.org.in">camp@mm.gnu.org.in</a> for any queries or concerns.</p>
+
+<p>Regards,</p>
+
+<p>Free Software Camp Organizing Team</p>
+
+</section>
+
+        </main><footer style="margin-top: 0">
+    <div class="footer-icon-row " style="text-align: center">
+        <h1>Organised By</h1>
+        <a href="https://fsci.in"><img height="50px" src='https://camp.fsf.org.in/img/fsci_logo.png' alt="Logo of FSCI" /></a>
+        <a href="https://fsf.org.in"><img height="50px" src="https://fsf.org.in/assets/img/logo.png" alt="Logo of FSF" /></a>
+    </div>
+    <h3 style="text-align: center; font-weight: 400">Free Software Camp <a style="color: inherit;" href="https://camp.fsf.org.in/privacy">Privacy Policy</a></h3>
+    <p style="text-align: center;">Made with <span style="color: #e25555;">&#9829;</span> All original content licensed under a free/libre copyleft license (GPL or CC BY-SA)</p>
+</footer>
+</body>
+</html>

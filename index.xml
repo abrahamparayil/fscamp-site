@@ -6,10 +6,21 @@
     <description>Recent content on Free Software Camp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2020 00:23:05 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2020 00:38:53 +0530</lastBuildDate>
     
 	<atom:link href="https://camp.fsf.org.in/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://camp.fsf.org.in/welcome/</link>
+      <pubDate>Tue, 29 Sep 2020 00:38:53 +0530</pubDate>
+      
+      <guid>https://camp.fsf.org.in/welcome/</guid>
+      <description>Welcome message to Learner Dear Learner,
+We have received your application to join Free Software Camp 2020 organized by Free Software Foundation of India and Free Software Community of India. Please read this email and take necessary steps to complete your application.
+ Make sure you have read the code of conduct. Make sure you take the learners&amp;rsquo; survey that indicates to us your preferred language for sessions. Consider subscribing to our low volume announcement mailing list or following us on mastodon/fediversefor updates regarding the camp and join in the conversation on matrix using any of the matrix powered apps like Element.</description>
+    </item>
     
     <item>
       <title>Privacy Policy</title>
